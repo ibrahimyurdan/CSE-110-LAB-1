@@ -123,3 +123,27 @@ header {
 .section {
     scroll-margin-top: 80px;
 }
+
+@media screen and (max-width: 800px) {
+    .navbar ul {
+        display: none;
+    }
+
+    .logo {
+        max-width: 75%;
+        height: auto;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+}
